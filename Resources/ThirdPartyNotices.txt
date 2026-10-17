@@ -1,0 +1,35 @@
+Amoss — Third-party components
+
+Amoss includes a scrcpy 5.0.1 client with a native SwiftUI bottom toolbar and
+viewport/input integration. The matching official server and ADB are unmodified
+except local code signatures. Modified client and toolbar sources are included.
+No Homebrew, Android SDK, Java, or separate installation is required at runtime.
+
+scrcpy: Copyright (C) 2018 Genymobile; (C) 2018–2026 Romain Vimont.
+Apache License 2.0. See Licenses/scrcpy-LICENSE.txt (also preserved at Tools/LICENSE).
+Project, source code and release build recipes:
+https://github.com/Genymobile/scrcpy/tree/v5.0.1
+https://github.com/Genymobile/scrcpy/releases/tag/v5.0.1
+
+Android Debug Bridge (ADB): Android Open Source Project, Apache License 2.0
+and notices for its incorporated dependencies.
+https://android.googlesource.com/platform/packages/modules/adb/
+
+The Amoss scrcpy client statically incorporates FFmpeg 9.0.2, SDL 3.4.18 and
+dav1d 1.5.4. Corresponding source archives, checksums, complete modified client
+sources and build recipes accompany the installer in its "Third-party sources"
+folder. License texts are included in this directory. FFmpeg, SDL and dav1d
+source code is unmodified. The original release's libusb 1.0.30 source and
+license are also preserved; Amoss disables client AOA/OTG functionality.
+
+FFmpeg: https://ffmpeg.org/ (LGPL 2.1 or later; built without GPL or nonfree components)
+SDL: https://libsdl.org/ (zlib license)
+libusb: https://libusb.info/ (LGPL 2.1 or later)
+
+dav1d: https://code.videolan.org/videolan/dav1d (BSD 2-Clause)
+The components remain under their respective licenses. Preserve the sources and
+license notices when redistributing this package. Source code is not needed to
+use the application; it is included for attribution and reproducibility.
+
+Amoss original integration code is Apache-2.0; see Amoss-LICENSE.txt and Amoss-NOTICE.txt.
+Corresponding sources support rebuilding and relinking the statically linked client.

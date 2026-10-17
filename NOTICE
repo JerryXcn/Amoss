@@ -1,0 +1,18 @@
+Amoss — Android & Mac, One Shared Space
+Copyright 2026 Amoss contributors
+
+Amoss original source code, documentation and application icons are licensed
+under the Apache License, Version 2.0. See LICENSE.
+
+Amoss bundles and adapts third-party software. These components retain their
+own copyright notices and licenses; the Amoss license does not replace them.
+See Resources/ThirdPartyNotices.txt and Resources/Licenses/ for details.
+The modified scrcpy client identifies changes in each modified upstream file
+and in AMOSS-MODIFICATIONS.txt in the corresponding source package.
+
+Apple system frameworks, fonts and SF Symbols are provided by the operating
+system and are not relicensed by this project. Local design prototypes and
+exported symbol assets are excluded from the public source distribution.
+
+Amoss is an independent project, not affiliated with or endorsed by Apple,
+Google, Android, Genymobile or the maintainers of the bundled components.

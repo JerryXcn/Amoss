@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {"component": "FFmpeg", "archive": "ffmpeg-9.0.2.tar.xz", "source": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz", "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e", "licenses": {"COPYING.LGPLv2.1": "FFmpeg-COPYING.LGPLv2.1.txt", "LICENSE.md": "FFmpeg-LICENSE.md.txt"}},
+    {"component": "SDL", "archive": "SDL-3.4.18.tar.gz", "source": "https://github.com/libsdl-org/SDL/archive/refs/tags/release-3.4.18.tar.gz", "sha256": "c4b08b950bd29d83caae0ab8d884298d27046a9d30700fb42841c50992665c90", "licenses": {"LICENSE.txt": "SDL-LICENSE.txt.txt"}},
+    {"component": "dav1d", "archive": "dav1d-1.5.4.tar.xz", "source": "https://downloads.videolan.org/pub/videolan/dav1d/1.5.4/dav1d-1.5.4.tar.xz", "sha256": "686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5", "licenses": {"COPYING": "dav1d-COPYING.txt"}},
+    {"component": "libusb", "archive": "libusb-1.0.30.tar.gz", "source": "https://github.com/libusb/libusb/archive/refs/tags/v1.0.30.tar.gz", "sha256": "2ae28adb0bb9558c86135c4e1c11b320b0805461e207a64a6e520a114094bf07", "licenses": {"COPYING": "libusb-COPYING.txt"}},
+    {"component": "scrcpy", "archive": "scrcpy-v5.0.1-source.tar.gz", "source": "https://codeload.github.com/Genymobile/scrcpy/tar.gz/refs/tags/v5.0.1", "sha256": "a24b996ac23d0f674d3237c00b39a97829d8acbe9e1657a6c216fd51ea488ee5", "licenses": {"LICENSE": "scrcpy-LICENSE.txt"}}
+  ],
+  "tools": {
+    "arm64": {"archive": "scrcpy-macos-aarch64-v5.0.1.tar.gz", "source": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-macos-aarch64-v5.0.1.tar.gz", "sha256": "33611e51977a8289e2e124b220f727895181ef2eb9060e0987a4dc2db9cf0d6b"},
+    "x86_64": {"archive": "scrcpy-macos-x86_64-v5.0.1.tar.gz", "source": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-macos-x86_64-v5.0.1.tar.gz", "sha256": "31a5467a9e907f162b093267cbbab1276b15c6e709c2ea8159566a8d165beb50"}
+  }
+}

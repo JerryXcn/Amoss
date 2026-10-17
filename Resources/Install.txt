@@ -1,0 +1,51 @@
+Amoss — Android & Mac, One Shared Space
+Android 与 Mac，共享一个工作空间
+
+ENGLISH
+Drag Amoss into Applications, then open it. Apple Silicon, macOS 15+.
+ADB, scrcpy and runtime dependencies are included. No Homebrew, Android SDK,
+Java or other developer tools are needed by users.
+
+Enable USB debugging on Android, connect a data-capable USB cable and approve
+the authorization prompt. Amoss starts in the menu bar. Choose a device to open
+a mirror or an app, or choose Main Window to display the device list.
+Settings → Language offers System, Simplified Chinese and English. System mode
+uses Chinese for a Chinese primary system language and English otherwise.
+
+Clipboard Sync is enabled by default for new authorized devices. All enabled
+devices share newly copied text, even without a mirror. Each device has a switch.
+Only text (about 256 KB maximum) is supported; no clipboard history is stored.
+The physical phone remains usable with supported virtual-display apps. App
+compatibility varies and an existing task may move from the phone into its window.
+Panel-off mirroring does not unlock the phone or bypass protected content.
+Closing the main window keeps Amoss in the menu bar; Quit ends its own sessions.
+
+Local builds are ad-hoc signed and not notarized. Check the release notes for
+that installer's signing status. For a trusted blocked build, use System Settings
+→ Privacy & Security → Open Anyway. Do not disable Gatekeeper globally.
+
+LICENSE and NOTICE apply to Amoss original work. Third-party software retains
+its own licenses. Third-party sources contains corresponding sources and rebuild
+instructions; preserve access to them when redistributing this installer.
+
+简体中文
+将 Amoss 拖入 Applications 后打开。支持 Apple Silicon，要求 macOS 15+。
+ADB、scrcpy 及运行库已经内置，无需另装 Homebrew、Android SDK 或 Java。
+
+开启手机 USB 调试，用数据线连接并允许授权。应用默认只显示菜单栏图标。
+在设备菜单中开启镜像或独立应用，选择「主界面」显示完整设备列表。
+「设置 → 语言」可选跟随系统、简体中文、English；默认中文系统使用中文，
+其他系统语言使用英文。
+
+新授权设备默认开启剪贴板同步，所有开启的设备共享新复制的文字，无需镜像。
+每台设备可单独关闭。仅支持文字，最大约 256 KB，不保存剪贴板历史。
+支持虚拟显示屏的应用可独立打开，手机仍能操作其他应用；兼容性因应用而异，
+已有任务可能从手机移入窗口。熄屏镜像不会解锁手机或绕过受保护内容。
+关闭主界面后继续驻留菜单栏，退出应用才结束自建会话。
+
+本地构建使用 ad-hoc 签名，未经过公证；具体安装包状态请查看发布说明。
+对于信任但被阻止的安装包，可在「系统设置 → 隐私与安全性」中选择「仍要打开」。
+不要全局关闭 Gatekeeper。
+
+LICENSE、NOTICE 适用于 Amoss 自有内容，第三方组件保留各自许可证。
+Third-party sources 提供对应源码和重建说明，重新分发时请保留其获取途径。

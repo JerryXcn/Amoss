@@ -1,0 +1,38 @@
+# Generated builds, downloaded tools, local design history and exports
+/build/
+/dist/
+/vendor/
+/tmp/
+/output/
+/design/
+.build/
+.swiftpm/
+DerivedData/
+__pycache__/
+*.py[cod]
+*.app/
+*.dmg
+*.dmg.sha256
+*.dSYM/
+*.log
+
+# macOS and per-user IDE state
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local credentials and signing material (never required in source control)
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keychain-db
+adbkey
+adbkey.pub
+id_rsa
+id_ed25519

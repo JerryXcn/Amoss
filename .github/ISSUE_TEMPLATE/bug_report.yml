@@ -1,0 +1,31 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem / 反馈可复现的问题
+body:
+  - type: markdown
+    attributes:
+      value: 'Do not include device serials, clipboard text, keys or private screenshots. For vulnerabilities, read SECURITY.md. / 请勿提供设备序列号、剪贴板正文、密钥或私人截图，安全问题请先阅读 SECURITY.md。'
+  - type: input
+    id: version
+    attributes:
+      label: Amoss version / 版本
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: Mac architecture and macOS version; phone model and Android version. No unique identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected behavior / 复现步骤与预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / 实际结果
+    validations:
+      required: true

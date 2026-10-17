@@ -1,0 +1,14 @@
+* text=auto
+*.swift text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.strings text eol=lf
+*.icns binary
+*.png binary
+
+# Preserve upstream license text verbatim, including its original whitespace.
+Resources/Licenses/** -text -whitespace
+LICENSE -whitespace
